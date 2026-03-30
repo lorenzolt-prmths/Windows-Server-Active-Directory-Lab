@@ -78,7 +78,7 @@ C:\Empresa
 Recurso compartido:
 
 ```
-\\SERVIDOR\Empresa
+\\SERVER-AD\Empresa
 ```
 
 ---
@@ -144,7 +144,6 @@ Se han realizado pruebas de acceso al servidor de archivos:
 
 ## Capturas del proyecto
 
-(Incluir aquí las capturas)
 
 * Configuración IP servidor
 * Roles instalados
