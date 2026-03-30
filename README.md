@@ -146,14 +146,37 @@ Se han realizado pruebas de acceso al servidor de archivos:
 
 
 * Configuración IP servidor
+![IP](ip-servidor.png)
+
 * Roles instalados
+![roles](instalacion-ad.png)
+
 * Active Directory
+![acdirectory](dominio_creado.png)
+
 * Unidades Organizativas
+![unidades[(Unidadesorg.png)
+
 * Usuarios
+![usuarios](usuarios.png)
+
 * Grupos
+![grupos](grupos.png)
+
 * Permisos NTFS
+![ventas](ventas.png)
+![IT](IT.png)
+![direccion](direccion.png)
+
 * Cliente unido al dominio
+![domcliente](dominio_cliente.png)
+![inicio](inicio.png)
+![whoami](whoami.png)
+ 
 * Acceso a carpetas compartidas
+![carpetas](carpetas.png)
+![entrada](entrada_ventas.png)
+![denegado](denegado.png)
 * Comandos PowerShell
 
 ---
