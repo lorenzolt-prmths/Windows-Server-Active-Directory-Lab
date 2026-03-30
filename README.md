@@ -146,37 +146,37 @@ Se han realizado pruebas de acceso al servidor de archivos:
 
 
 * Configuración IP servidor
-![IP](ip-servidor.png)
+![IP](img/ip-servidor.png)
 
 * Roles instalados
-![roles](instalacion-ad.png)
+![roles](img/instalacion-ad.png)
 
 * Active Directory
-![acdirectory](dominio_creado.png)
+![acdirectory](img/dominio_creado.png)
 
 * Unidades Organizativas
-![unidades[(Unidadesorg.png)
+![unidades](img/Unidadesorg.png)
 
 * Usuarios
-![usuarios](usuarios.png)
+![usuarios](img/usuarios.png)
 
 * Grupos
-![grupos](grupos.png)
+![grupos](img/grupos.png)
 
 * Permisos NTFS
-![ventas](ventas.png)
-![IT](IT.png)
-![direccion](direccion.png)
+![ventas](img/ventas.png)
+![IT](img/IT.png)
+![direccion](img/direccion.png)
 
 * Cliente unido al dominio
-![domcliente](dominio_cliente.png)
-![inicio](inicio.png)
-![whoami](whoami.png)
+![domcliente](img/dominio_cliente.png)
+![inicio](img/inicio.png)
+![whoami](img/whoami.png)
  
 * Acceso a carpetas compartidas
-![carpetas](carpetas.png)
-![entrada](entrada_ventas.png)
-![denegado](denegado.png)
+![carpetas](img/carpetas.png)
+![entrada](img/entrada_ventas.png)
+![denegado](img/denegado.png)
 * Comandos PowerShell
 
 ---
