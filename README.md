@@ -1,10 +1,10 @@
 # Windows Server Active Directory Lab
 
-## Descripción
+## Descripción del proyecto
+Este laboratorio simula la infraestructura básica de una empresa utilizando Windows Server y Active Directory.  
+Se ha implementado un controlador de dominio, unidades organizativas, usuarios, grupos de seguridad y un servidor de archivos con permisos NTFS por departamentos.  
 
-Este proyecto consiste en la implementación de una infraestructura básica de red empresarial utilizando Windows Server, Active Directory, usuarios, grupos, unidades organizativas y un servidor de archivos con permisos por departamentos.
-
-El objetivo es simular el entorno de una empresa donde los usuarios se organizan por departamentos y tienen acceso únicamente a sus carpetas correspondientes.
+El objetivo del proyecto es recrear un entorno empresarial real donde cada usuario tiene acceso únicamente a los recursos de su departamento.
 
 ---
 
@@ -144,43 +144,61 @@ Se han realizado pruebas de acceso al servidor de archivos:
 
 ## Capturas del proyecto
 
+### Configuración del servidor
+Configuración inicial del servidor, IP estática y nombre del equipo.
 
-* Configuración IP servidor
-![IP](img/ip-servidor.png)
-
-* Roles instalados
-![roles](img/instalacion-ad.png)
-
-* Active Directory
-![acdirectory](img/dominio_creado.png)
-
-* Unidades Organizativas
-![unidades](img/Unidadesorg.png)
-
-* Usuarios
-![usuarios](img/usuarios.png)
-
-* Grupos
-![grupos](img/grupos.png)
-
-* Permisos NTFS
-![ventas](img/ventas.png)
-![IT](img/IT.png)
-![direccion](img/direccion.png)
-
-* Cliente unido al dominio
-![domcliente](img/dominio_cliente.png)
-![inicio](img/inicio.png)
-![whoami](img/whoami.png)
- 
-* Acceso a carpetas compartidas
-![carpetas](img/carpetas.png)
-![entrada](img/entrada_ventas.png)
-![denegado](img/denegado.png)
-* Comandos PowerShell
+![IP servidor](img/ip-servidor.png)
 
 ---
 
+### Instalación de Active Directory
+Instalación de los roles de Active Directory y creación del dominio.
+
+![Instalación AD](img/instalacion-ad.png)
+![Dominio creado](img/dominio_creado.png)
+
+---
+
+### Estructura de Active Directory
+Unidades organizativas, usuarios y grupos creados en el dominio.
+
+![Unidades Organizativas](img/Unidadesorg.png)
+![Usuarios](img/usuarios.png)
+![Grupos](img/grupos.png)
+
+---
+
+### Servidor de archivos y permisos NTFS
+Configuración de carpetas compartidas y permisos por departamentos.
+
+![Permisos Ventas](img/ventas.png)
+![Permisos IT](img/IT.png)
+![Permisos Dirección](img/direccion.png)
+
+---
+
+### Cliente unido al dominio
+Equipo cliente unido al dominio e inicio de sesión con usuario del dominio.
+
+![Cliente en dominio](img/dominio_cliente.png)
+![Inicio de sesión](img/inicio.png)
+![Comando whoami](img/whoami.png)
+
+---
+
+### Pruebas de acceso a carpetas compartidas
+Acceso permitido a la carpeta del departamento correspondiente y acceso denegado a otros departamentos.
+
+![Carpetas compartidas](img/carpetas.png)
+![Acceso Ventas](img/entrada_ventas.png)
+![Acceso denegado](img/denegado.png)
+
+---
+
+### Comandos PowerShell
+Administración de Active Directory mediante PowerShell.
+
+*(Aquí puedes añadir capturas de los comandos Get-ADUser, Get-ADGroup, etc.)*
 ## Autor
 
 Lorenzo León
