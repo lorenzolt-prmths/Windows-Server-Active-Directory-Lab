@@ -193,12 +193,7 @@ Acceso permitido a la carpeta del departamento correspondiente y acceso denegado
 ![Acceso Ventas](img/entrada_ventas.png)
 ![Acceso denegado](img/denegado.png)
 
----
 
-### Comandos PowerShell
-Administración de Active Directory mediante PowerShell.
-
-*(Aquí puedes añadir capturas de los comandos Get-ADUser, Get-ADGroup, etc.)*
 ## Autor
 
 Lorenzo León
